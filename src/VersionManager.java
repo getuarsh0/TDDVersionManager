@@ -34,4 +34,9 @@ public class VersionManager {
         this.minor = minor;
         this.patch = patch;
     }
+
+
+    void reset() {
+        this.setVersion(0, 0, 0);
+    }
 }
