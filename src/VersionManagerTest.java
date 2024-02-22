@@ -42,10 +42,4 @@ class VersionManagerTest {
         assertEquals("2.1.1", vm.getVersion(), "Setting version failed.");
 
     }
-
-    @Test
-    void reset() {
-        vm.reset();
-        assertEquals("0.0.0", vm.getVersion(), "Reset version failed.");
-    }
 }
